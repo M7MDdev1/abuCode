@@ -423,4 +423,7 @@ import './contrib/dropOrPasteInto/browser/dropOrPasteInto.contribution.js';
 import './contrib/editTelemetry/browser/editTelemetry.contribution.js';
 
 
+import './contrib/blankView/browser/blankView.contribution.js';
+
+
 //#endregion
