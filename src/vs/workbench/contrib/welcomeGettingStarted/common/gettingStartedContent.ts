@@ -111,7 +111,7 @@ type GettingStartedStartEntryContent = BuiltinGettingStartedStartEntry[];
 export const startEntries: GettingStartedStartEntryContent = [
 	{
 		id: 'welcome.showNewFileEntries',
-		title: localize('gettingStarted.newFile.title', "New File..."),
+		title: "ارمي الملف يا علييييييي",
 		description: localize('gettingStarted.newFile.description', "Open a new untitled text file, notebook, or custom editor."),
 		icon: Codicon.newFile,
 		content: {
@@ -121,7 +121,7 @@ export const startEntries: GettingStartedStartEntryContent = [
 	},
 	{
 		id: 'topLevelOpenMac',
-		title: localize('gettingStarted.openMac.title', "Open..."),
+		title: "هات المجلد يا عبدوووو",
 		description: localize('gettingStarted.openMac.description', "Open a file or folder to start working"),
 		icon: Codicon.folderOpened,
 		when: '!isWeb && isMac',

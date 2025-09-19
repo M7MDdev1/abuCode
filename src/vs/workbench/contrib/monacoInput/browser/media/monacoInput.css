@@ -1,0 +1,36 @@
+.monaco-input-toolbar {
+	padding: 8px;
+	border-bottom: 1px solid var(--vscode-input-border);
+	background: var(--vscode-editor-background);
+}
+
+.monaco-input-toolbar .monaco-button {
+	background: var(--vscode-button-background);
+	color: var(--vscode-button-foreground);
+	border: 1px solid var(--vscode-button-border, transparent);
+	padding: 6px 12px;
+	border-radius: 3px;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+.monaco-input-toolbar .monaco-button:hover {
+	background: var(--vscode-button-hoverBackground);
+}
+
+.monaco-input-toolbar .monaco-button.primary {
+	background: var(--vscode-button-background);
+	color: var(--vscode-button-foreground);
+}
+
+.monaco-input-toolbar .monaco-button.primary:hover {
+	background: var(--vscode-button-hoverBackground);
+}
+
+.monaco-input-container {
+	flex: 1;
+	min-height: 300px;
+	border: 1px solid var(--vscode-input-border);
+	border-radius: 4px;
+	margin: 8px;
+}

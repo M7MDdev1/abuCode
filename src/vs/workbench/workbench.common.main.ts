@@ -207,6 +207,9 @@ import './contrib/chat/browser/chat.contribution.js';
 import './contrib/inlineChat/browser/inlineChat.contribution.js';
 import './contrib/mcp/browser/mcp.contribution.js';
 
+// Monaco Input
+import './contrib/monacoInput/browser/monacoInput.contribution.js';
+
 // Interactive
 import './contrib/interactive/browser/interactive.contribution.js';
 
